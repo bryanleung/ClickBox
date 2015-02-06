@@ -38,8 +38,5 @@ class settingsExistingViewController: UIViewController {
     }
     */
 
-    @IBAction func signOut(sender: AnyObject) {
-        dismissViewControllerAnimated(true, completion: nil)
-    }
 
 }

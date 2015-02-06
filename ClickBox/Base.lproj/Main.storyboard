@@ -138,7 +138,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="3XB-HD-eRN" kind="push" id="Dkx-9d-0b4"/>
+                                    <segue destination="3XB-HD-eRN" kind="modal" animates="NO" id="Dkx-9d-0b4"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Lo5-MU-nSJ">
@@ -179,7 +179,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Zsa-lQ-VoW" kind="push" id="YuL-Fy-Ur2"/>
+                                    <segue destination="Zsa-lQ-VoW" kind="modal" animates="NO" id="YuL-Fy-Ur2"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="create2" id="MXs-4x-zn3">
@@ -214,7 +214,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="FdS-J9-fNZ" kind="push" id="KNL-gQ-fV8"/>
+                                    <segue destination="FdS-J9-fNZ" kind="modal" animates="NO" id="KNL-gQ-fV8"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -245,7 +245,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="J3Y-bh-RtH" kind="push" id="2PP-6g-UIO"/>
+                                    <segue destination="J3Y-bh-RtH" kind="modal" animates="NO" id="2PP-6g-UIO"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -293,7 +293,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="3Tl-w7-NeG" kind="push" id="UGe-fN-Xff"/>
+                                    <segue destination="3Tl-w7-NeG" kind="modal" modalTransitionStyle="crossDissolve" id="UGe-fN-Xff"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -423,7 +423,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="9gU-vN-94U" kind="push" id="Fdc-8W-wri"/>
+                                    <segue destination="9gU-vN-94U" kind="modal" animates="NO" id="Fdc-8W-wri"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -569,7 +569,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="0y9-w1-wlV" kind="push" id="rKR-vR-X4j"/>
+                                    <segue destination="0y9-w1-wlV" kind="modal" animates="NO" id="rKR-vR-X4j"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -620,7 +620,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="LRm-rV-bHB" kind="push" id="P2V-dc-Yuo"/>
+                                    <segue destination="LRm-rV-bHB" kind="modal" modalTransitionStyle="crossDissolve" id="P2V-dc-Yuo"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -799,14 +799,14 @@
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="772"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="2lP-Yn-xR8">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ZlX-mr-aqq">
                                         <rect key="frame" x="0.0" y="691" width="320" height="47"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="signOut:" destination="Bda-Ze-Yi7" eventType="touchUpInside" id="Pxn-eo-atp"/>
+                                            <segue destination="gTx-hl-Cfw" kind="modal" modalTransitionStyle="crossDissolve" id="YJI-yJ-8b0"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -970,14 +970,14 @@
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="772"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Jph-xK-4MW">
-                                        <rect key="frame" x="0.0" y="693" width="320" height="42"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="YaO-yc-eS0">
+                                        <rect key="frame" x="0.0" y="691" width="320" height="47"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="signOut:" destination="fP2-YL-wLz" eventType="touchUpInside" id="D4E-iw-qaH"/>
+                                            <segue destination="I5U-YL-vSV" kind="modal" modalTransitionStyle="crossDissolve" id="hmx-QR-tse"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -1064,8 +1064,9 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="daW-tg-mLI"/>
-        <segue reference="KsA-iI-OAp"/>
         <segue reference="0cE-FW-VhW"/>
+        <segue reference="YJI-yJ-8b0"/>
+        <segue reference="daW-tg-mLI"/>
+        <segue reference="hmx-QR-tse"/>
     </inferredMetricsTieBreakers>
 </document>

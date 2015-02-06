@@ -39,8 +39,6 @@ class settingsViewController: UIViewController {
     }
     */
 
-    @IBAction func signOut(sender: AnyObject) {
-        dismissViewControllerAnimated(true, completion: nil)
-    }
+
 
 }
