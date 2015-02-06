@@ -7,12 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D70313DE1A83388B00E058DC /* welcomeSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70313DD1A83388B00E058DC /* welcomeSignInViewController.swift */; };
+		D70313E01A8338E900E058DC /* signInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70313DF1A8338E900E058DC /* signInViewController.swift */; };
+		D70313E21A841B6100E058DC /* forgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70313E11A841B6100E058DC /* forgotPasswordViewController.swift */; };
+		D70313E41A841E1F00E058DC /* termsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70313E31A841E1F00E058DC /* termsViewController.swift */; };
+		D70313E61A84220900E058DC /* settingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70313E51A84220900E058DC /* settingsViewController.swift */; };
+		D70313E81A8428A400E058DC /* existingPhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70313E71A8428A400E058DC /* existingPhotosViewController.swift */; };
+		D70313EA1A8436D600E058DC /* settingsExistingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70313E91A8436D600E058DC /* settingsExistingViewController.swift */; };
 		D7E612E51A81884E002C8B15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E612E41A81884E002C8B15 /* AppDelegate.swift */; };
 		D7E612E71A81884E002C8B15 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E612E61A81884E002C8B15 /* ViewController.swift */; };
 		D7E612EA1A81884E002C8B15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7E612E81A81884E002C8B15 /* Main.storyboard */; };
 		D7E612EC1A81884E002C8B15 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7E612EB1A81884E002C8B15 /* Images.xcassets */; };
 		D7E612EF1A81884E002C8B15 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7E612ED1A81884E002C8B15 /* LaunchScreen.xib */; };
 		D7E612FB1A81884E002C8B15 /* ClickBoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E612FA1A81884E002C8B15 /* ClickBoxTests.swift */; };
+		D7E613051A819DC7002C8B15 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E613041A819DC7002C8B15 /* WelcomeViewController.swift */; };
+		D7E73D881A83210900F4CD33 /* newAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E73D871A83210900F4CD33 /* newAccountViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +35,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D70313DD1A83388B00E058DC /* welcomeSignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = welcomeSignInViewController.swift; sourceTree = "<group>"; };
+		D70313DF1A8338E900E058DC /* signInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signInViewController.swift; sourceTree = "<group>"; };
+		D70313E11A841B6100E058DC /* forgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = forgotPasswordViewController.swift; sourceTree = "<group>"; };
+		D70313E31A841E1F00E058DC /* termsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = termsViewController.swift; sourceTree = "<group>"; };
+		D70313E51A84220900E058DC /* settingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = settingsViewController.swift; sourceTree = "<group>"; };
+		D70313E71A8428A400E058DC /* existingPhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = existingPhotosViewController.swift; sourceTree = "<group>"; };
+		D70313E91A8436D600E058DC /* settingsExistingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = settingsExistingViewController.swift; sourceTree = "<group>"; };
 		D7E612DF1A81884E002C8B15 /* ClickBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClickBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7E612E31A81884E002C8B15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7E612E41A81884E002C8B15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +52,8 @@
 		D7E612F41A81884E002C8B15 /* ClickBoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClickBoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7E612F91A81884E002C8B15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7E612FA1A81884E002C8B15 /* ClickBoxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickBoxTests.swift; sourceTree = "<group>"; };
+		D7E613041A819DC7002C8B15 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		D7E73D871A83210900F4CD33 /* newAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = newAccountViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +101,15 @@
 				D7E612EB1A81884E002C8B15 /* Images.xcassets */,
 				D7E612ED1A81884E002C8B15 /* LaunchScreen.xib */,
 				D7E612E21A81884E002C8B15 /* Supporting Files */,
+				D7E613041A819DC7002C8B15 /* WelcomeViewController.swift */,
+				D7E73D871A83210900F4CD33 /* newAccountViewController.swift */,
+				D70313DD1A83388B00E058DC /* welcomeSignInViewController.swift */,
+				D70313DF1A8338E900E058DC /* signInViewController.swift */,
+				D70313E11A841B6100E058DC /* forgotPasswordViewController.swift */,
+				D70313E31A841E1F00E058DC /* termsViewController.swift */,
+				D70313E51A84220900E058DC /* settingsViewController.swift */,
+				D70313E71A8428A400E058DC /* existingPhotosViewController.swift */,
+				D70313E91A8436D600E058DC /* settingsExistingViewController.swift */,
 			);
 			path = ClickBox;
 			sourceTree = "<group>";
@@ -212,8 +239,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D70313E21A841B6100E058DC /* forgotPasswordViewController.swift in Sources */,
+				D7E613051A819DC7002C8B15 /* WelcomeViewController.swift in Sources */,
+				D70313E61A84220900E058DC /* settingsViewController.swift in Sources */,
 				D7E612E71A81884E002C8B15 /* ViewController.swift in Sources */,
 				D7E612E51A81884E002C8B15 /* AppDelegate.swift in Sources */,
+				D70313DE1A83388B00E058DC /* welcomeSignInViewController.swift in Sources */,
+				D70313E01A8338E900E058DC /* signInViewController.swift in Sources */,
+				D70313E41A841E1F00E058DC /* termsViewController.swift in Sources */,
+				D70313E81A8428A400E058DC /* existingPhotosViewController.swift in Sources */,
+				D70313EA1A8436D600E058DC /* settingsExistingViewController.swift in Sources */,
+				D7E73D881A83210900F4CD33 /* newAccountViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +372,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = ClickBox/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -346,6 +383,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = ClickBox/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -405,6 +443,7 @@
 				D7E613001A81884E002C8B15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D7E613011A81884E002C8B15 /* Build configuration list for PBXNativeTarget "ClickBoxTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +452,7 @@
 				D7E613031A81884E002C8B15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
