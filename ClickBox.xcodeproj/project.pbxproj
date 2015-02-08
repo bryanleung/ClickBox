@@ -20,20 +20,9 @@
 		D7E612EA1A81884E002C8B15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7E612E81A81884E002C8B15 /* Main.storyboard */; };
 		D7E612EC1A81884E002C8B15 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7E612EB1A81884E002C8B15 /* Images.xcassets */; };
 		D7E612EF1A81884E002C8B15 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7E612ED1A81884E002C8B15 /* LaunchScreen.xib */; };
-		D7E612FB1A81884E002C8B15 /* ClickBoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E612FA1A81884E002C8B15 /* ClickBoxTests.swift */; };
 		D7E613051A819DC7002C8B15 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E613041A819DC7002C8B15 /* WelcomeViewController.swift */; };
 		D7E73D881A83210900F4CD33 /* newAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E73D871A83210900F4CD33 /* newAccountViewController.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		D7E612F51A81884E002C8B15 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D7E612D71A81884E002C8B15 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D7E612DE1A81884E002C8B15;
-			remoteInfo = ClickBox;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		D70313DD1A83388B00E058DC /* welcomeSignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = welcomeSignInViewController.swift; sourceTree = "<group>"; };
@@ -51,22 +40,12 @@
 		D7E612E91A81884E002C8B15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D7E612EB1A81884E002C8B15 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D7E612EE1A81884E002C8B15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		D7E612F41A81884E002C8B15 /* ClickBoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClickBoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D7E612F91A81884E002C8B15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D7E612FA1A81884E002C8B15 /* ClickBoxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickBoxTests.swift; sourceTree = "<group>"; };
 		D7E613041A819DC7002C8B15 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		D7E73D871A83210900F4CD33 /* newAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = newAccountViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		D7E612DC1A81884E002C8B15 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D7E612F11A81884E002C8B15 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -80,7 +59,6 @@
 			isa = PBXGroup;
 			children = (
 				D7E612E11A81884E002C8B15 /* ClickBox */,
-				D7E612F71A81884E002C8B15 /* ClickBoxTests */,
 				D7E612E01A81884E002C8B15 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,7 +67,6 @@
 			isa = PBXGroup;
 			children = (
 				D7E612DF1A81884E002C8B15 /* ClickBox.app */,
-				D7E612F41A81884E002C8B15 /* ClickBoxTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -125,23 +102,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		D7E612F71A81884E002C8B15 /* ClickBoxTests */ = {
-			isa = PBXGroup;
-			children = (
-				D7E612FA1A81884E002C8B15 /* ClickBoxTests.swift */,
-				D7E612F81A81884E002C8B15 /* Supporting Files */,
-			);
-			path = ClickBoxTests;
-			sourceTree = "<group>";
-		};
-		D7E612F81A81884E002C8B15 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				D7E612F91A81884E002C8B15 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -162,24 +122,6 @@
 			productReference = D7E612DF1A81884E002C8B15 /* ClickBox.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D7E612F31A81884E002C8B15 /* ClickBoxTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D7E613011A81884E002C8B15 /* Build configuration list for PBXNativeTarget "ClickBoxTests" */;
-			buildPhases = (
-				D7E612F01A81884E002C8B15 /* Sources */,
-				D7E612F11A81884E002C8B15 /* Frameworks */,
-				D7E612F21A81884E002C8B15 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D7E612F61A81884E002C8B15 /* PBXTargetDependency */,
-			);
-			name = ClickBoxTests;
-			productName = ClickBoxTests;
-			productReference = D7E612F41A81884E002C8B15 /* ClickBoxTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -191,10 +133,6 @@
 				TargetAttributes = {
 					D7E612DE1A81884E002C8B15 = {
 						CreatedOnToolsVersion = 6.1.1;
-					};
-					D7E612F31A81884E002C8B15 = {
-						CreatedOnToolsVersion = 6.1.1;
-						TestTargetID = D7E612DE1A81884E002C8B15;
 					};
 				};
 			};
@@ -212,7 +150,6 @@
 			projectRoot = "";
 			targets = (
 				D7E612DE1A81884E002C8B15 /* ClickBox */,
-				D7E612F31A81884E002C8B15 /* ClickBoxTests */,
 			);
 		};
 /* End PBXProject section */
@@ -225,13 +162,6 @@
 				D7E612EA1A81884E002C8B15 /* Main.storyboard in Resources */,
 				D7E612EF1A81884E002C8B15 /* LaunchScreen.xib in Resources */,
 				D7E612EC1A81884E002C8B15 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D7E612F21A81884E002C8B15 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,23 +187,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D7E612F01A81884E002C8B15 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D7E612FB1A81884E002C8B15 /* ClickBoxTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		D7E612F61A81884E002C8B15 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D7E612DE1A81884E002C8B15 /* ClickBox */;
-			targetProxy = D7E612F51A81884E002C8B15 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		D7E612E81A81884E002C8B15 /* Main.storyboard */ = {
@@ -394,40 +308,6 @@
 			};
 			name = Release;
 		};
-		D7E613021A81884E002C8B15 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = ClickBoxTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClickBox.app/ClickBox";
-			};
-			name = Debug;
-		};
-		D7E613031A81884E002C8B15 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = ClickBoxTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClickBox.app/ClickBox";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -445,15 +325,6 @@
 			buildConfigurations = (
 				D7E612FF1A81884E002C8B15 /* Debug */,
 				D7E613001A81884E002C8B15 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D7E613011A81884E002C8B15 /* Build configuration list for PBXNativeTarget "ClickBoxTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D7E613021A81884E002C8B15 /* Debug */,
-				D7E613031A81884E002C8B15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
